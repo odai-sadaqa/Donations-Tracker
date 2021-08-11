@@ -9,7 +9,12 @@ body{
     
 }
 
-
+#DonatorTable Th{
+    background-color:#1F1F1F;
+}
+#DonatorTable Td{
+    background-color:#3D3D3D;
+}
 #form{
     background-color:rgba(114, 104, 211, 0.8);
     width: 500px;
