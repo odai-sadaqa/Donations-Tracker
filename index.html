@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/rest.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Donation-Tracker</title>
+</head>
+
+<body>
+    <form id="form">
+        <fieldset>
+            <label for="DonatorName">DonatorName</label>
+            <input type="text" name="DonatorName" id="DonatorName">
+
+            <label for="DonationAmount">DonationAmount</label>
+            <input list="DonationAmount" name="DonationAmount" id="name">
+            <datalist id="DonationAmount">
+                <option value="100">
+                <option value="300">
+                <option value="500">
+            </datalist>
+            <input type="submit" value="Submit Query" name="submit" id="submit">
+        </fieldset>
+
+    </form>
+
+    <div>
+        <table id="DonatorTable">
+            <tr>
+                <Th>Donator Name</Th>
+                <Th>Donation Amount</Th>
+                <Th>Age</Th>
+            </tr>
+        </table>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

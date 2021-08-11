@@ -1,0 +1,41 @@
+body{
+    background-image: url('img/school.jpg');
+}
+
+#DonatorTable {
+    border: 1px solid black;
+    background-color: rgba(114, 104, 211, 0.8);
+    float: right;
+    
+}
+
+
+#form{
+    background-color:rgba(114, 104, 211, 0.8);
+    width: 500px;
+    height: auto;
+    float: left;
+    margin-left: 20%;
+}
+#form label{
+    color:#f5f5f5;
+   padding-left:40%;
+   font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
+#form input{
+    text-align: center;
+    display: block;
+    padding :10px;
+    box-sizing: border-box;
+    margin:auto;
+    padding: auto;
+
+}
+
+#form #submit{
+    padding: 10px;
+    background-color: black;
+    color: #f5f5f5;
+}
+
